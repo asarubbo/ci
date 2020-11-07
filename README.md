@@ -96,3 +96,9 @@ What are the rules that you may know when you see a report from those systems?
 * A package uses automake in maintainer-mode
 * A package uses LD instead of CC/CXX
 * A package uses -Werror CFLAGS
+
+### New Features and change requests
+Because of past cases where people requested a feature and other people complained about the same feature, before submit a ticket you must discuss on gentoo-dev mailing list and obtain the QA lead approval.
+
+### Be excluded from tinderbox/CI
+In case you do not want to receive bugreports from tinderbox/CI for one or more packages you maintain, please open a ticket.
