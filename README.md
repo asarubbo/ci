@@ -91,6 +91,8 @@ What are the rules that you may know when you see a report from those systems?
 * A package installs pre-stripped files
 * A package installs shared libraries that lack a SONAME
 * A package installs shared libraries that lack NEEDED entries
+* A package installs static libraries without IUSE static-libs
 * A package installs udev rules into wrong directory
 * A package uses automake in maintainer-mode
 * A package uses LD instead of CC/CXX
+* A package uses -Werror CFLAGS
